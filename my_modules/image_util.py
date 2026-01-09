@@ -4,8 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import SimpleITK as sitk
 import skimage as sk
-from matplotlib.colors import ListedColormap
-import matplotlib
+
 
 # === Reading Images ===
 def read_img(full_path: str, downsample_size:int=1) -> np.ndarray:

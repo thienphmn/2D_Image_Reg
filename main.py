@@ -390,7 +390,7 @@ def main():
     max_gens = 30
     mins = np.array([-75.0, -75.0, -25.0])
     maxs = np.array([75.0, 75.0, 25.0])
-    initial_mutation = np.array([30, 30, 10])  # equal to 20% of parameter range
+    initial_mutation = np.array([22.5, 22.5, 7.5])  # equal to 20% of parameter range
 
     # for saving experimental results
     results = np.zeros(shape=(18,7))
@@ -507,4 +507,7 @@ def ct_pet_registration():
 
 # === Genetic Algorithms ===
 if __name__ == "__main__":
+    main()
     ct_pet_registration()
+
+
